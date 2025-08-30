@@ -15,3 +15,17 @@ echo hi | > >>
 echo hi | < |
 echo hi |   |
 echo hi |  "|"
+test
+echo > <
+<
+hello world
+cat wouaf wouaf
+>
+> > > >
+>> >> >> >>
+<<
+EechoE
+.echo.
+>echo>
+<echo<
+>>echo>>
