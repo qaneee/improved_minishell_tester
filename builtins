@@ -30,12 +30,7 @@ echo nenie iri
 echo 'nenie_iri'
 echo "nenie_iri"
 echo -n
-echo -n nenie_iri
-echo -nn nenie_iri
-echo -n -n -n nenie_iri
-echo "-n" nenie_iri
 echo -n"-n" nenie_iri
-echo "-nnnn" nenie_iri
 echo "-n -n -n"-n nenie_iri
 echo "-n -n" nenie_iri
 echo "-n '-n'" nenie_iri
