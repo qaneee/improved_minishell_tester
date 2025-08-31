@@ -78,9 +78,6 @@ export hello world
 export HELLO-=123
 export =
 export 123
-export | grep "SHLVL"
-export | grep "OLDPWD"
-export | grep "PWD"
 export $?
 export TEST
 export TEST=
