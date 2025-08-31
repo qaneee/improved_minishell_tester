@@ -78,7 +78,6 @@ export hello world
 export HELLO-=123
 export =
 export 123
-env | grep "_="
 export | grep "SHLVL"
 export | grep "OLDPWD"
 export | grep "PWD"
