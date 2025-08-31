@@ -2,6 +2,7 @@ env | sort | grep -v SHLVL | grep -v ^_
 cat ./test_files/infile_big | grep oi
 cat minishell.h | grep ");"$
 export GHOST=123 | env | grep GHOST
+env | grep "_="
 env | grep "SHLVL"
 echo oui | cat -e
 echo oui | echo non | echo something | grep oui
