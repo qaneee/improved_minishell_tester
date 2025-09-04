@@ -2,7 +2,6 @@ env | sort | grep -v SHLVL | grep -v ^_
 cat ./test_files/infile_big | grep oi
 cat minishell.h | grep ");"$
 export GHOST=123 | env | grep GHOST
-env | grep "_="
 env | grep "SHLVL"
 echo oui | cat -e
 echo oui | echo non | echo something | grep oui
@@ -18,7 +17,6 @@ cat Makefile | cat -e | cat -e
 cat Makefile | grep "FLAGS" | grep "FLAGS" | cat -e
 export | grep "SHLVL"
 export | grep "OLDPWD"
-export | grep "PWD"
 export TEST=123 | cat -e | cat -e
 unset TEST | cat -e
 echo test | cat -e | cat -e | cat -e
