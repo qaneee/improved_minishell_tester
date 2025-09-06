@@ -67,6 +67,8 @@ echo $PWD/file
 echo "$PWD/file"
 echo "nenie_iri" "nenie_iri$USER" ... "$USER"
 echo test      tout
+echo $MY_ECHO_VAR
+echo "$MY_ECHO_VAR"
 pwd
 pwd oi
 export hello
@@ -189,6 +191,13 @@ exit ++++1203020103
 exit +0
 exit ++++++0
 exit -----0
+exit -
+exit --
+exit ---
+exit +
+exit .
+exit ++
+exit +++
 exit -----------------------------------
 exit +++++++++++++++++++++++++++++++++
 exit =================================
